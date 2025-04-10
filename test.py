@@ -1,6 +1,6 @@
 
 
-def test():
-    print("Test")
+def test(a):
+    print(a)
 
-test()
+test(5)

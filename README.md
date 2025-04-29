@@ -36,22 +36,22 @@ Run the scraping script:
 ```bash
 python scrape.py
 This will create CSV files for each genre in csv_files/ directory.
-
+```
 ### 2. Combine and Clean Data
 ```bash
 python csv_combine.py
 Creates combined_cleaned_file.csv with all movies.
-
+```
 ### 3. Load to Database
 ```bash
 python sql.py
 Loads cleaned data into MySQL.
-
+```
 ### 4. Launch Dashboard
 ```bash
 streamlit run stream.py
 Access the interactive dashboard at http://localhost:8501
-
+```
 
 ## Dashboard Features
 
@@ -63,15 +63,12 @@ Access the interactive dashboard at http://localhost:8501
 
 ### Visualizations
 - **Genre Distribution**  
-  ![Genre Distribution](https://via.placeholder.com/300x200?text=Genre+Distribution+Chart)
   - Pie charts and bar graphs showing genre popularity
 
 - **Rating vs. Votes Correlation**  
-  ![Rating vs Votes](https://via.placeholder.com/300x200?text=Rating+vs+Votes+Scatter)
   - Interactive scatter plot with logarithmic scale
 
 - **Duration Analysis**  
-  ![Duration Analysis](https://via.placeholder.com/300x200?text=Duration+Histogram)
   - Histograms showing movie length distribution
 
 ### Top Performers
@@ -84,7 +81,6 @@ Access the interactive dashboard at http://localhost:8501
 
 ### Advanced Analysis
 - **Heatmaps**  
-  ![Heatmap](https://via.placeholder.com/300x200?text=Genre+Rating+Heatmap)
   - Genre vs. rating intensity maps
 - **Scatter Plots**  
   - Duration vs. rating relationships
